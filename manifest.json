@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "categories": [
+    { "id": "f2", "title": "Интерфейс F2", "articles": [
+      { "slug": "overview", "title": "Что такое F2", "file": "f2/overview.md" },
+      { "slug": "sections", "title": "Разделы F2", "file": "f2/sections.md" }
+    ]},
+    { "id": "bank", "title": "Банк", "articles": [
+      { "slug": "accounts",  "title": "Счета и карты",       "file": "bank/accounts.md" },
+      { "slug": "cards",     "title": "Управление картами",  "file": "bank/cards.md" },
+      { "slug": "transfers", "title": "Переводы",            "file": "bank/transfers.md" },
+      { "slug": "joint",     "title": "Совместные счета",    "file": "bank/joint.md" }
+    ]},
+    { "id": "market", "title": "Маркет", "articles": [
+      { "slug": "basics", "title": "Как торговать",     "file": "market/basics.md" },
+      { "slug": "cancel", "title": "Снять лот и забрать", "file": "market/cancel.md" },
+      { "slug": "zones",  "title": "Зона маркета",      "file": "market/zones.md" }
+    ]},
+    { "id": "voice", "title": "Голосовой чат", "articles": [
+      { "slug": "setup", "title": "Настройка голоса", "file": "voice/setup.md" },
+      { "slug": "usage", "title": "Как общаться",      "file": "voice/usage.md" },
+      { "slug": "discs", "title": "Пластинки",         "file": "voice/discs.md" }
+    ]},
+    { "id": "start", "title": "Старт новичка", "articles": [
+      { "slug": "first", "title": "Первые шаги", "file": "start/first.md" }
+    ]},
+    { "id": "moderation", "title": "Модерация", "articles": [
+      { "slug": "reports",     "title": "Жалобы",     "file": "moderation/reports.md" },
+      { "slug": "punishments", "title": "Наказания",  "file": "moderation/punishments.md" }
+    ]}
+  ]
+}
