@@ -1,6 +1,9 @@
 {
   "version": 1,
   "categories": [
+    { "id": "start", "title": "Старт новичка", "articles": [
+      { "slug": "first", "title": "Первые шаги", "file": "start/first.md" }
+    ]},
     { "id": "f2", "title": "Интерфейс F2", "articles": [
       { "slug": "overview", "title": "Что такое F2", "file": "f2/overview.md" },
       { "slug": "sections", "title": "Разделы F2", "file": "f2/sections.md" }
@@ -20,9 +23,6 @@
       { "slug": "setup", "title": "Настройка голоса", "file": "voice/setup.md" },
       { "slug": "usage", "title": "Как общаться",      "file": "voice/usage.md" },
       { "slug": "discs", "title": "Пластинки",         "file": "voice/discs.md" }
-    ]},
-    { "id": "start", "title": "Старт новичка", "articles": [
-      { "slug": "first", "title": "Первые шаги", "file": "start/first.md" }
     ]},
     { "id": "moderation", "title": "Модерация", "articles": [
       { "slug": "reports",     "title": "Жалобы",     "file": "moderation/reports.md" },
