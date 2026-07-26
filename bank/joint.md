@@ -4,6 +4,8 @@
 
 ## Добавить участника
 
+<video src="assets/joint-adduser.webm" autoplay loop muted playsinline></video>
+
 ```
 /vlb member add <код-карты> <ник> [member|viewer]
 ```

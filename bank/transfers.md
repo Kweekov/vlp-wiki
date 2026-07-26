@@ -2,6 +2,8 @@
 
 ## Перевод другому игроку
 
+<video src="assets/bank-transfer.webm" autoplay loop muted playsinline></video>
+
 ```
 /vlb pay [код-счёта] <ник> <кол-во> [комментарий]
 ```
@@ -62,6 +64,8 @@
 /vlb put [код] [кол-во]     — положить АРы из инвентаря на счёт
 /vlb withdraw [код] <кол-во> — снять АРы со счёта в инвентарь
 ```
+
+<video src="assets/bank-withdraw.webm" autoplay loop muted playsinline></video>
 
 Если код счёта не указан — используется активный счёт.
 

@@ -19,8 +19,6 @@
 
 Выбор режима и назначение клавиши — в настройках Plasmo Voice.
 
-<video src="assets/voice-ptt.webm" autoplay loop muted playsinline></video>
-
 ## Смотрите также
 
 - [Настройка голоса](wiki:voice/setup) — микрофон, громкость, клавиши.
