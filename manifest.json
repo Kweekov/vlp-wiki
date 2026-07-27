@@ -14,6 +14,17 @@
       { "slug": "transfers", "title": "Переводы",            "file": "bank/transfers.md" },
       { "slug": "joint",     "title": "Совместные счета",    "file": "bank/joint.md" }
     ]},
+    { "id": "fishing", "title": "Рыбалка", "articles": [
+      { "slug": "overview", "title": "Как работает рыбалка", "file": "fishing/overview.md" },
+      { "slug": "buffs",    "title": "Баффы и бусты",        "file": "fishing/buffs.md" }
+    ]},
+    { "id": "brewery", "title": "Пивоварня", "articles": [
+      { "slug": "overview", "title": "С чего начать",       "file": "brewery/overview.md" },
+      { "slug": "cauldron", "title": "Котёл: варка",         "file": "brewery/cauldron.md" },
+      { "slug": "distill",  "title": "Дистилляция",          "file": "brewery/distill.md" },
+      { "slug": "barrel",   "title": "Бочки и выдержка",     "file": "brewery/barrel.md" },
+      { "slug": "recipes",  "title": "Рецепты",              "file": "brewery/recipes.md" }
+    ]},
     { "id": "market", "title": "Маркет", "articles": [
       { "slug": "basics", "title": "Как торговать",     "file": "market/basics.md" },
       { "slug": "cancel", "title": "Снять лот и забрать", "file": "market/cancel.md" },
