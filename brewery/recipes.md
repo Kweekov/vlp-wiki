@@ -14,14 +14,16 @@
 
 Усиливают [рыбалку](wiki:fishing/overview). Две линейки — **Опыт** и **Хлам** — по три ступени. Чем выше множитель, тем сложнее рецепт.
 
-| Зелье | Ингредиенты | Эффект | Варка | Перегонка | Выдержка | Бочка |
-|-------|-------------|--------|-------|-----------|----------|-------|
-| Прикормка рыболова ×2 | ![треска](assets/items/cod.png) 5 · ![ламинария](assets/items/kelp.png) 3 · ![сахар](assets/items/sugar.png) 2 · ![семена пшеницы](assets/items/wheat_seeds.png) 2 · ![пшеница](assets/items/wheat.png) 2 | опыт ×2 | 15 мин | 1 | 40 мин | Дуб |
-| Настой рыболова ×4 | ![ламинария](assets/items/kelp.png) 10 · ![сушёная ламинария](assets/items/dried_kelp.png) 5 · ![пшеница](assets/items/wheat.png) 10 · ![золотая морковь](assets/items/golden_carrot.png) 2 · ![чернильный мешок](assets/items/ink_sac.png) 5 · ![светопыль](assets/items/glowstone_dust.png) 3 | опыт ×4 | 20 мин | 2 | 2 ч | Ель |
-| Эликсир рыболова ×8 | ![Русская водка](assets/items/potion.png) 2 _(Русская водка)_ · ![яблоко](assets/items/apple.png) 5 · ![тропическая рыба](assets/items/tropical_fish.png) 5 · ![пшеница](assets/items/wheat.png) 20 · ![иглобрюх](assets/items/pufferfish.png) 2 | опыт ×8 + клёв | 60 мин | 3 | 6 ч | Тёмный дуб |
-| Мутная наживка ×2 | ![гнилая плоть](assets/items/rotten_flesh.png) 5 · ![паутина](assets/items/cobweb.png) 3 · ![костная мука](assets/items/bone_meal.png) 4 · ![лазурит](assets/items/lapis_lazuli.png) 2 · ![чернильный мешок](assets/items/ink_sac.png) 3 | хлам ×2 | 15 мин | 1 | 40 мин | Дуб |
-| Везучая наживка ×4 | ![гнилая плоть](assets/items/rotten_flesh.png) 10 · ![кроличья лапка](assets/items/rabbit_foot.png) 3 · ![изумруд](assets/items/emerald.png) 2 · ![светопыль](assets/items/glowstone_dust.png) 5 · ![чернильный мешок](assets/items/ink_sac.png) 5 | хлам ×4 | 20 мин | 2 | 2 ч | Акация |
-| Клад рыболова ×8 | ![Ром](assets/items/potion.png) 2 _(Ром)_ · ![сердце моря](assets/items/heart_of_the_sea.png) 2 · ![незеритовый лом](assets/items/netherite_scrap.png) 2 · ![светящиеся ягоды](assets/items/glow_berries.png) 10 · ![иглобрюх](assets/items/pufferfish.png) 2 | хлам ×8 + клёв | 60 мин | 3 | 6 ч | Вишня |
+| Зелье | Ингредиенты | Эффект | Длительность | Варка | Перегонка | Выдержка | Бочка |
+|-------|-------------|--------|--------------|-------|-----------|----------|-------|
+| Прикормка рыболова ×2 | ![треска](assets/items/cod.png "треска") 5 · ![ламинария](assets/items/kelp.png "ламинария") 3 · ![сахар](assets/items/sugar.png "сахар") 2 · ![семена пшеницы](assets/items/wheat_seeds.png "семена пшеницы") 2 · ![пшеница](assets/items/wheat.png "пшеница") 2 | опыт ×2 | 10 мин | 15 мин | 1 | 40 мин | Дуб |
+| Настой рыболова ×4 | ![ламинария](assets/items/kelp.png "ламинария") 10 · ![сушёная ламинария](assets/items/dried_kelp.png "сушёная ламинария") 5 · ![пшеница](assets/items/wheat.png "пшеница") 10 · ![золотая морковь](assets/items/golden_carrot.png "золотая морковь") 2 · ![чернильный мешок](assets/items/ink_sac.png "чернильный мешок") 5 · ![светопыль](assets/items/glowstone_dust.png "светопыль") 3 | опыт ×4 | 6 мин | 20 мин | 2 | 2 ч | Ель |
+| Эликсир рыболова ×8 | ![Русская водка](assets/items/potion.png "Русская водка (готовый напиток)") 2 · ![яблоко](assets/items/apple.png "яблоко") 5 · ![тропическая рыба](assets/items/tropical_fish.png "тропическая рыба") 5 · ![пшеница](assets/items/wheat.png "пшеница") 20 · ![иглобрюх](assets/items/pufferfish.png "иглобрюх") 2 | опыт ×8 + клёв | 3 мин | 60 мин | 3 | 6 ч | Тёмный дуб |
+| Мутная наживка ×2 | ![гнилая плоть](assets/items/rotten_flesh.png "гнилая плоть") 5 · ![паутина](assets/items/cobweb.png "паутина") 3 · ![костная мука](assets/items/bone_meal.png "костная мука") 4 · ![лазурит](assets/items/lapis_lazuli.png "лазурит") 2 · ![чернильный мешок](assets/items/ink_sac.png "чернильный мешок") 3 | хлам ×2 | 10 мин | 15 мин | 1 | 40 мин | Дуб |
+| Везучая наживка ×4 | ![гнилая плоть](assets/items/rotten_flesh.png "гнилая плоть") 10 · ![кроличья лапка](assets/items/rabbit_foot.png "кроличья лапка") 3 · ![изумруд](assets/items/emerald.png "изумруд") 2 · ![светопыль](assets/items/glowstone_dust.png "светопыль") 5 · ![чернильный мешок](assets/items/ink_sac.png "чернильный мешок") 5 | хлам ×4 | 6 мин | 20 мин | 2 | 2 ч | Акация |
+| Клад рыболова ×8 | ![Ром](assets/items/potion.png "Ром (готовый напиток)") 2 · ![сердце моря](assets/items/heart_of_the_sea.png "сердце моря") 2 · ![незеритовый лом](assets/items/netherite_scrap.png "незеритовый лом") 2 · ![светящиеся ягоды](assets/items/glow_berries.png "светящиеся ягоды") 10 · ![иглобрюх](assets/items/pufferfish.png "иглобрюх") 2 | хлам ×8 + клёв | 3 мин | 60 мин | 3 | 6 ч | Вишня |
+
+_Длительность указана для идеального качества (+ небольшой случайный разброс до минуты). Чем лучше сварено зелье — тем дольше держится эффект._
 
 > **Топовые ×8** требуют крепкий алкоголь в составе: эликсир опыта — **водку**, клад хлама — **ром**. Сначала сварите и перегоните алкоголь, затем используйте его как ингредиент. Настоящий эндгейм пивоварни.
 
@@ -33,29 +35,29 @@
 
 | Напиток | Ингредиенты | Крепость | Варка | Перегонка | Выдержка | Бочка |
 |---------|-------------|----------|-------|-----------|----------|-------|
-| Пиво | ![пшеница](assets/items/wheat.png) 6 | 5° | 8 мин | — | — | — |
-| Сидр | ![яблоко](assets/items/apple.png) 10 · ![сахар](assets/items/sugar.png) 2 | 7° | 5 мин | — | 30 мин | Дуб |
-| Медовуха | ![бутылка мёда](assets/items/honey_bottle.png) 6 · ![сахар](assets/items/sugar.png) 2 | 8° | 6 мин | — | 20 мин | Дуб |
-| Эль | ![пшеница](assets/items/wheat.png) 10 · ![бутылка мёда](assets/items/honey_bottle.png) 2 | 9° | 12 мин | — | 40 мин | Тёмный дуб |
-| Шампанское | ![сладкие ягоды](assets/items/sweet_berries.png) 12 · ![сахар](assets/items/sugar.png) 5 · ![светопыль](assets/items/glowstone_dust.png) 2 | 10° | 5 мин | — | 2 ч | Ель |
-| Глинтвейн | ![сладкие ягоды](assets/items/sweet_berries.png) 10 · ![сахар](assets/items/sugar.png) 3 · ![какао-бобы](assets/items/cocoa_beans.png) 2 · ![огненный порошок](assets/items/blaze_powder.png) 1 | 10° | 8 мин | — | — | — |
-| Вино | ![сладкие ягоды](assets/items/sweet_berries.png) 12 · ![сахар](assets/items/sugar.png) 3 | 11° | 5 мин | — | 1 ч | Дуб |
-| Брага | ![картофель](assets/items/potato.png) 8 · ![сахар](assets/items/sugar.png) 3 | 15° | 6 мин | — | — | — |
-| Портвейн | ![сладкие ягоды](assets/items/sweet_berries.png) 14 · ![сахар](assets/items/sugar.png) 4 | 18° | 6 мин | — | 3 ч | Дуб |
-| Ликёр | ![сахар](assets/items/sugar.png) 10 · ![какао-бобы](assets/items/cocoa_beans.png) 5 · ![бутылка мёда](assets/items/honey_bottle.png) 5 | 20° | 8 мин | 1 | 1 ч | Дуб |
-| Наливка | ![сладкие ягоды](assets/items/sweet_berries.png) 15 · ![сахар](assets/items/sugar.png) 6 · ![Русская водка](assets/items/potion.png) 1 | 22° | 6 мин | — | 1.5 ч | Вишня |
-| Самогон | ![картофель](assets/items/potato.png) 10 · ![сахар](assets/items/sugar.png) 5 | 28° | 12 мин | 3 | — | — |
-| Грог | ![Ром](assets/items/potion.png) 1 · ![сахар](assets/items/sugar.png) 3 · ![какао-бобы](assets/items/cocoa_beans.png) 2 | 28° | 5 мин | — | — | — |
-| Настойка на травах | ![папоротник](assets/items/fern.png) 10 · ![красный гриб](assets/items/red_mushroom.png) 2 · ![сахар](assets/items/sugar.png) 3 | 30° | 10 мин | 1 | 40 мин | Тёмный дуб |
-| Ром | ![сахарный тростник](assets/items/sugar_cane.png) 16 · ![сахар](assets/items/sugar.png) 5 | 32° | 12 мин | 3 | 1.5 ч | Акация |
-| Хреновуха | ![Русская водка](assets/items/potion.png) 1 · ![красный гриб](assets/items/red_mushroom.png) 2 · ![сахар](assets/items/sugar.png) 2 | 34° | 6 мин | — | 30 мин | Ель |
-| Русская водка | ![картофель](assets/items/potato.png) 15 · ![пшеница](assets/items/wheat.png) 10 | 35° | 18 мин | 4 | 20 мин | Ель |
-| Текила | ![кактус](assets/items/cactus.png) 12 · ![сахар](assets/items/sugar.png) 4 | 35° | 12 мин | 3 | 30 мин | Акация |
-| Джин | ![пшеница](assets/items/wheat.png) 10 · ![светящиеся ягоды](assets/items/glow_berries.png) 4 | 37° | 12 мин | 3 | — | Ель |
-| Виски | ![пшеница](assets/items/wheat.png) 12 | 38° | 14 мин | 2 | 3 ч | Тёмный дуб |
-| Бренди | ![яблоко](assets/items/apple.png) 12 | 38° | 10 мин | 2 | 2 ч | Дуб |
-| Коньяк | ![сладкие ягоды](assets/items/sweet_berries.png) 14 · ![сушёная ламинария](assets/items/dried_kelp.png) 3 | 40° | 12 мин | 2 | 4 ч | Дуб |
-| Абсент | ![папоротник](assets/items/fern.png) 10 · ![жёлтый краситель](assets/items/yellow_dye.png) 2 · ![сахар](assets/items/sugar.png) 5 | 45° | 14 мин | 3 | 40 мин | Тёмный дуб |
+| Пиво | ![пшеница](assets/items/wheat.png "пшеница") 6 | 5° | 8 мин | — | — | — |
+| Сидр | ![яблоко](assets/items/apple.png "яблоко") 10 · ![сахар](assets/items/sugar.png "сахар") 2 | 7° | 5 мин | — | 30 мин | Дуб |
+| Медовуха | ![бутылка мёда](assets/items/honey_bottle.png "бутылка мёда") 6 · ![сахар](assets/items/sugar.png "сахар") 2 | 8° | 6 мин | — | 20 мин | Дуб |
+| Эль | ![пшеница](assets/items/wheat.png "пшеница") 10 · ![бутылка мёда](assets/items/honey_bottle.png "бутылка мёда") 2 | 9° | 12 мин | — | 40 мин | Тёмный дуб |
+| Шампанское | ![сладкие ягоды](assets/items/sweet_berries.png "сладкие ягоды") 12 · ![сахар](assets/items/sugar.png "сахар") 5 · ![светопыль](assets/items/glowstone_dust.png "светопыль") 2 | 10° | 5 мин | — | 2 ч | Ель |
+| Глинтвейн | ![сладкие ягоды](assets/items/sweet_berries.png "сладкие ягоды") 10 · ![сахар](assets/items/sugar.png "сахар") 3 · ![какао-бобы](assets/items/cocoa_beans.png "какао-бобы") 2 · ![огненный порошок](assets/items/blaze_powder.png "огненный порошок") 1 | 10° | 8 мин | — | — | — |
+| Вино | ![сладкие ягоды](assets/items/sweet_berries.png "сладкие ягоды") 12 · ![сахар](assets/items/sugar.png "сахар") 3 | 11° | 5 мин | — | 1 ч | Дуб |
+| Брага | ![картофель](assets/items/potato.png "картофель") 8 · ![сахар](assets/items/sugar.png "сахар") 3 | 15° | 6 мин | — | — | — |
+| Портвейн | ![сладкие ягоды](assets/items/sweet_berries.png "сладкие ягоды") 14 · ![сахар](assets/items/sugar.png "сахар") 4 | 18° | 6 мин | — | 3 ч | Дуб |
+| Ликёр | ![сахар](assets/items/sugar.png "сахар") 10 · ![какао-бобы](assets/items/cocoa_beans.png "какао-бобы") 5 · ![бутылка мёда](assets/items/honey_bottle.png "бутылка мёда") 5 | 20° | 8 мин | 1 | 1 ч | Дуб |
+| Наливка | ![сладкие ягоды](assets/items/sweet_berries.png "сладкие ягоды") 15 · ![сахар](assets/items/sugar.png "сахар") 6 · ![Русская водка](assets/items/potion.png "Русская водка (готовый напиток)") 1 | 22° | 6 мин | — | 1.5 ч | Вишня |
+| Самогон | ![картофель](assets/items/potato.png "картофель") 10 · ![сахар](assets/items/sugar.png "сахар") 5 | 28° | 12 мин | 3 | — | — |
+| Грог | ![Ром](assets/items/potion.png "Ром (готовый напиток)") 1 · ![сахар](assets/items/sugar.png "сахар") 3 · ![какао-бобы](assets/items/cocoa_beans.png "какао-бобы") 2 | 28° | 5 мин | — | — | — |
+| Настойка на травах | ![папоротник](assets/items/fern.png "папоротник") 10 · ![красный гриб](assets/items/red_mushroom.png "красный гриб") 2 · ![сахар](assets/items/sugar.png "сахар") 3 | 30° | 10 мин | 1 | 40 мин | Тёмный дуб |
+| Ром | ![сахарный тростник](assets/items/sugar_cane.png "сахарный тростник") 16 · ![сахар](assets/items/sugar.png "сахар") 5 | 32° | 12 мин | 3 | 1.5 ч | Акация |
+| Хреновуха | ![Русская водка](assets/items/potion.png "Русская водка (готовый напиток)") 1 · ![красный гриб](assets/items/red_mushroom.png "красный гриб") 2 · ![сахар](assets/items/sugar.png "сахар") 2 | 34° | 6 мин | — | 30 мин | Ель |
+| Русская водка | ![картофель](assets/items/potato.png "картофель") 15 · ![пшеница](assets/items/wheat.png "пшеница") 10 | 35° | 18 мин | 4 | 20 мин | Ель |
+| Текила | ![кактус](assets/items/cactus.png "кактус") 12 · ![сахар](assets/items/sugar.png "сахар") 4 | 35° | 12 мин | 3 | 30 мин | Акация |
+| Джин | ![пшеница](assets/items/wheat.png "пшеница") 10 · ![светящиеся ягоды](assets/items/glow_berries.png "светящиеся ягоды") 4 | 37° | 12 мин | 3 | — | Ель |
+| Виски | ![пшеница](assets/items/wheat.png "пшеница") 12 | 38° | 14 мин | 2 | 3 ч | Тёмный дуб |
+| Бренди | ![яблоко](assets/items/apple.png "яблоко") 12 | 38° | 10 мин | 2 | 2 ч | Дуб |
+| Коньяк | ![сладкие ягоды](assets/items/sweet_berries.png "сладкие ягоды") 14 · ![сушёная ламинария](assets/items/dried_kelp.png "сушёная ламинария") 3 | 40° | 12 мин | 2 | 4 ч | Дуб |
+| Абсент | ![папоротник](assets/items/fern.png "папоротник") 10 · ![жёлтый краситель](assets/items/yellow_dye.png "жёлтый краситель") 2 · ![сахар](assets/items/sugar.png "сахар") 5 | 45° | 14 мин | 3 | 40 мин | Тёмный дуб |
 
 Простые напитки (пиво, брага, грог, глинтвейн) готовы сразу из котла. Крепкие проходят полный цикл: варка → перегонка → выдержка. Прочерк в перегонке/выдержке означает, что этап не нужен.
 
