@@ -29,6 +29,7 @@
     { "id": "market", "title": "Маркет", "articles": [
       { "slug": "basics", "title": "Как торговать",     "file": "market/basics.md" },
       { "slug": "cancel", "title": "Снять лот и забрать", "file": "market/cancel.md" },
+      { "slug": "prices", "title": "Минимальные цены",  "file": "market/prices.md" },
       { "slug": "zones",  "title": "Зона маркета",      "file": "market/zones.md" }
     ]},
     { "id": "voice", "title": "Голосовой чат", "articles": [
