@@ -121,14 +121,34 @@
           "file": "market/basics.md"
         },
         {
-          "slug": "cancel",
-          "title": "Снять лот и забрать",
-          "file": "market/cancel.md"
+          "slug": "warehouse",
+          "title": "Склад и вместимость",
+          "file": "market/warehouse.md"
+        },
+        {
+          "slug": "listing",
+          "title": "Выставить лот",
+          "file": "market/listing.md"
+        },
+        {
+          "slug": "tax",
+          "title": "Налог с продажи",
+          "file": "market/tax.md"
+        },
+        {
+          "slug": "treasury",
+          "title": "Государство (казна)",
+          "file": "market/treasury.md"
         },
         {
           "slug": "prices",
           "title": "Минимальные цены",
           "file": "market/prices.md"
+        },
+        {
+          "slug": "cancel",
+          "title": "Снять лот и забрать",
+          "file": "market/cancel.md"
         },
         {
           "slug": "zones",
