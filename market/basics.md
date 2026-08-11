@@ -7,21 +7,53 @@
 
 ## Весь путь одной картинкой
 
-```
-Предмет в руке
-   │  /market  (в зоне) — положить на склад
-   ▼
-СКЛАД (хранилище)  ──► выставить (F2 › Склад): цена + срок ──► ЛОТ на витрине
-   ▲                                                              │
-   │ не продали до конца срока — вернётся сюда                    │ кто-то купил
-   │                                                              ▼
-   └──────────────────────────────────────  продавец получает  ВЫРУЧКА − НАЛОГ
-                                             покупатель получает предмет (в «Забрать купленное»)
-                                                              │
-                                        налог + плата за хранение + выделение
-                                                              ▼
-                                                   ГОСУДАРСТВО (казна)
-```
+<div style="overflow-x:auto">
+<svg viewBox="0 0 720 430" role="img" aria-label="Путь товара на маркете: склад, лот, продажа, налог, казна" style="width:100%;max-width:720px;height:auto;display:block;margin:10px auto;font-family:ui-sans-serif,system-ui,'Segoe UI',Arial,sans-serif">
+  <defs>
+    <marker id="mkArrow" markerWidth="10" markerHeight="10" refX="7.5" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#8BD24E"/></marker>
+  </defs>
+  <rect x="0" y="0" width="720" height="430" rx="16" fill="#0f1710" stroke="#25361b" stroke-width="1"/>
+
+  <!-- 1. Предмет в руке -->
+  <rect x="250" y="18" width="220" height="44" rx="10" fill="#17240f" stroke="#3c5a29" stroke-width="1"/>
+  <text x="360" y="45" text-anchor="middle" fill="#e6edf3" font-size="15">Предмет в руке</text>
+  <line x1="360" y1="62" x2="360" y2="94" stroke="#8BD24E" stroke-width="2" marker-end="url(#mkArrow)"/>
+  <text x="372" y="82" fill="#93a58c" font-size="12"><tspan font-family="ui-monospace,Consolas,monospace" fill="#cdd7cb">/market</tspan> в зоне → на склад</text>
+
+  <!-- 2. Склад -->
+  <rect x="230" y="96" width="260" height="44" rx="10" fill="#17240f" stroke="#8BD24E" stroke-width="1.5"/>
+  <text x="360" y="123" text-anchor="middle" fill="#e6edf3" font-size="15">СКЛАД — ваше хранилище</text>
+  <line x1="360" y1="140" x2="360" y2="172" stroke="#8BD24E" stroke-width="2" marker-end="url(#mkArrow)"/>
+  <text x="372" y="160" fill="#93a58c" font-size="12">выставить: цена + срок (F2 › Склад)</text>
+
+  <!-- return loop -->
+  <path d="M230,118 C 150,118 150,196 230,196" fill="none" stroke="#5a6f4a" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#mkArrow)"/>
+  <text x="60" y="152" fill="#93a58c" font-size="11">не продали</text>
+  <text x="60" y="167" fill="#93a58c" font-size="11">за срок —</text>
+  <text x="60" y="182" fill="#93a58c" font-size="11">возврат</text>
+
+  <!-- 3. Лот -->
+  <rect x="255" y="174" width="210" height="44" rx="10" fill="#17240f" stroke="#3c5a29" stroke-width="1"/>
+  <text x="360" y="201" text-anchor="middle" fill="#e6edf3" font-size="15">ЛОТ на витрине</text>
+  <line x1="360" y1="218" x2="360" y2="250" stroke="#8BD24E" stroke-width="2" marker-end="url(#mkArrow)"/>
+  <text x="372" y="238" fill="#93a58c" font-size="12">кто-то купил</text>
+
+  <!-- 4. Результат покупки: две стороны -->
+  <rect x="46" y="252" width="300" height="50" rx="10" fill="#1b2417" stroke="#3c5a29" stroke-width="1"/>
+  <text x="196" y="273" text-anchor="middle" fill="#e6edf3" font-size="13.5">Продавец получает</text>
+  <text x="196" y="291" text-anchor="middle" fill="#8BD24E" font-size="13.5">выручку − налог</text>
+  <rect x="374" y="252" width="300" height="50" rx="10" fill="#1b2417" stroke="#3c5a29" stroke-width="1"/>
+  <text x="524" y="273" text-anchor="middle" fill="#e6edf3" font-size="13.5">Покупатель получает</text>
+  <text x="524" y="291" text-anchor="middle" fill="#cdd7cb" font-size="13">предмет (в «Забрать купленное»)</text>
+
+  <!-- 5. Казна -->
+  <line x1="360" y1="302" x2="360" y2="342" stroke="#8BD24E" stroke-width="2" marker-end="url(#mkArrow)"/>
+  <text x="372" y="326" fill="#93a58c" font-size="12">налог + плата за хранение + выделение</text>
+  <rect x="235" y="344" width="250" height="48" rx="10" fill="#23301a" stroke="#8BD24E" stroke-width="1.5"/>
+  <text x="360" y="367" text-anchor="middle" fill="#e6edf3" font-size="15" font-weight="600">ГОСУДАРСТВО</text>
+  <text x="360" y="383" text-anchor="middle" fill="#93a58c" font-size="11.5">общая казна сети</text>
+</svg>
+</div>
 
 Проще говоря: **склад → лот → продажа**. С каждой продажи удерживается налог, за длительное
 хранение и «выделение» лота берётся плата — и **все эти сборы идут в общую казну, Государство**.
