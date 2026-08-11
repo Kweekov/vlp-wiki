@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 452" width="720" height="452" role="img" aria-label="Путь товара на маркете: склад, лот, продажа, налог, казна" font-family="'Segoe UI',ui-sans-serif,system-ui,Arial,sans-serif">
+  <defs>
+    <marker id="mkArrow" markerWidth="10" markerHeight="10" refX="7.5" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#8BD24E"/></marker>
+    <marker id="mkArrowMut" markerWidth="10" markerHeight="10" refX="7.5" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#6f8a5c"/></marker>
+  </defs>
+
+  <rect x="0" y="0" width="720" height="452" rx="16" fill="#0f1710" stroke="#25361b" stroke-width="1"/>
+
+  <!-- 1. Предмет в руке -->
+  <rect x="250" y="20" width="220" height="46" rx="11" fill="#17240f" stroke="#3c5a29" stroke-width="1"/>
+  <text x="360" y="48" text-anchor="middle" fill="#e6edf3" font-size="15">Предмет в руке</text>
+  <line x1="360" y1="66" x2="360" y2="100" stroke="#8BD24E" stroke-width="2" marker-end="url(#mkArrow)"/>
+  <text x="374" y="87" fill="#9fb0a5" font-size="12"><tspan fill="#cdd7cb" font-family="ui-monospace,Consolas,monospace">/market</tspan> в зоне → на склад</text>
+
+  <!-- 2. Склад -->
+  <rect x="228" y="100" width="264" height="46" rx="11" fill="#17240f" stroke="#8BD24E" stroke-width="1.5"/>
+  <text x="360" y="128" text-anchor="middle" fill="#e6edf3" font-size="15">СКЛАД — ваше хранилище</text>
+  <line x1="360" y1="146" x2="360" y2="180" stroke="#8BD24E" stroke-width="2" marker-end="url(#mkArrow)"/>
+  <text x="374" y="167" fill="#9fb0a5" font-size="12">выставить: цена + срок (F2 › Склад)</text>
+
+  <!-- return loop -->
+  <path d="M228,123 C 150,123 150,203 228,203" fill="none" stroke="#5a6f4a" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#mkArrowMut)"/>
+  <text x="58" y="157" fill="#8fa383" font-size="11">не продали</text>
+  <text x="58" y="172" fill="#8fa383" font-size="11">за срок —</text>
+  <text x="58" y="187" fill="#8fa383" font-size="11">возврат</text>
+
+  <!-- 3. Лот -->
+  <rect x="255" y="180" width="210" height="46" rx="11" fill="#17240f" stroke="#3c5a29" stroke-width="1"/>
+  <text x="360" y="208" text-anchor="middle" fill="#e6edf3" font-size="15">ЛОТ на витрине</text>
+  <line x1="360" y1="226" x2="360" y2="262" stroke="#8BD24E" stroke-width="2" marker-end="url(#mkArrow)"/>
+  <text x="374" y="248" fill="#9fb0a5" font-size="12">кто-то купил</text>
+
+  <!-- 4. Две стороны сделки -->
+  <rect x="44" y="264" width="304" height="52" rx="11" fill="#1b2417" stroke="#3c5a29" stroke-width="1"/>
+  <text x="196" y="286" text-anchor="middle" fill="#e6edf3" font-size="13.5">Продавец получает</text>
+  <text x="196" y="305" text-anchor="middle" fill="#8BD24E" font-size="14" font-weight="600">выручку − налог</text>
+  <rect x="372" y="264" width="304" height="52" rx="11" fill="#1b2417" stroke="#3c5a29" stroke-width="1"/>
+  <text x="524" y="286" text-anchor="middle" fill="#e6edf3" font-size="13.5">Покупатель получает</text>
+  <text x="524" y="305" text-anchor="middle" fill="#cdd7cb" font-size="12.5">предмет (в «Забрать купленное»)</text>
+
+  <!-- 5. Казна -->
+  <line x1="360" y1="316" x2="360" y2="360" stroke="#8BD24E" stroke-width="2" marker-end="url(#mkArrow)"/>
+  <text x="374" y="342" fill="#9fb0a5" font-size="12">налог + плата за хранение + выделение</text>
+  <rect x="232" y="362" width="256" height="52" rx="11" fill="#23301a" stroke="#8BD24E" stroke-width="1.5"/>
+  <text x="360" y="386" text-anchor="middle" fill="#e6edf3" font-size="15" font-weight="600">ГОСУДАРСТВО</text>
+  <text x="360" y="404" text-anchor="middle" fill="#9fb0a5" font-size="11.5">общая казна сети</text>
+
+  <text x="360" y="438" text-anchor="middle" fill="#7f9270" font-size="11.5">склад → лот → продажа → казна</text>
+</svg>
